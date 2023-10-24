@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Service 1",
+    "endpoint": "https://www.kit.edu"
+  },
+  {
+    "name": "Service 2",
+    "endpoint": "https://www.ph-karlsruhe.de/"
+  },
+  {
+    "name": "Service 3",
+    "endpoint": "https://www.facebook.com/"
+  }
+]
