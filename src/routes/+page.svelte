@@ -1,12 +1,10 @@
 <script lang="ts">
-	import { base } from '$app/paths'
-
-	import Component from '$src/routes/component.svelte'
+	import Status from '$src/routes/component.svelte'
+	import services from '../services.json'
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p class="bg-green-300">
-	Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a>
-	to read the documentation: {base}
-</p>
-<Component name="world" />
+<h1>Service Status</h1>
+
+{#each services as service}
+	<Status {service} />
+{/each}
