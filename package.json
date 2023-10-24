@@ -42,5 +42,11 @@
     "vite": "^4.5.0",
     "vitest": "^0.34.6"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "flowbite": "^1.8.1",
+    "flowbite-svelte": "^0.44.18",
+    "tailwind-merge": "^1.14.0"
+  }
 }
